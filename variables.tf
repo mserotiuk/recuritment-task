@@ -11,7 +11,7 @@ variable "aws_region" {
 variable "amis" {
     description = "AMIs by region"
     default = {
-        eu-west-1 = "ami-f1810f86" # ubuntu 14.04 LTS
+        eu-west-1 = "ami-055958ae2f796344b" # ubuntu 14.04 LTS
     }
 }
 
